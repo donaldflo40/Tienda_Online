@@ -1,0 +1,50 @@
+/* Margen y fuente del body */
+body {
+  margin: 20px;
+  font-family: Verdana, sans-serif;
+  background-color: gray;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+/* Fuente Tahoma para parrafos y etiquetas */
+p, label {
+  font-family: Tahoma, sans-serif;
+}
+
+/* Ancho estandar para inputs, select y textarea */
+input, select, textarea {
+  width: 200px;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Fondo para el campo de email */
+input[name="email"] {
+  background-color: #eeeeee;
+}
+
+/* Boton de enviar */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
